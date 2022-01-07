@@ -5,7 +5,6 @@ const headers = { "Content-Type": "application/json" };
 const AXIOS_CONFIG = {
   baseURL,
   headers,
-  withCredentials: true,
 };
 
 export const API = Axios.create(AXIOS_CONFIG);
