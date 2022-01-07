@@ -36,7 +36,6 @@ function App() {
           };
           return feature;
         });
-        console.log("APP", { areas });
         setMapData(areas);
       });
       setUsers({

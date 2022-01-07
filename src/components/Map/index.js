@@ -1,9 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
-import { getUsers, getAreas } from "../../services";
 import ReactDOM from "react-dom";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import Tooltip from "../Tooltip";
-import Legend from "../Legend";
 
 import "./style.css";
 
