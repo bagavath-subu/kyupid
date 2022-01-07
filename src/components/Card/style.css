@@ -1,0 +1,20 @@
+.card {
+  /* height: 100px; */
+  /* width: fit-content; */
+  min-width: 200px;
+  margin: 20px;
+  background: red;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.fluid {
+  flex-grow: 1;
+}
+h4 {
+  margin-top: 0;
+}
+h1 {
+  margin-bottom: 0;
+}
